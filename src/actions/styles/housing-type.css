@@ -1,0 +1,36 @@
+.hi {
+  position: relative;
+}
+.housing-type {
+  cursor: pointer;
+}
+.dropdown-housing-type {
+  width: 380px;
+  background-color: white;
+  position: absolute;
+  top: 54px;
+  left: -80px;
+  padding: 10px;
+}
+.dropdown-housing-type::after {
+  content: "";
+  position: absolute;
+  border-bottom: 10px solid white;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 100px;
+}
+.housing-select-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: 5px;
+}
+.housing-select-container .housing-select {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}

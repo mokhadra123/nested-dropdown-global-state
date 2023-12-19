@@ -1,0 +1,15 @@
+.reset-button,
+.done-button {
+  width: 100px;
+  padding: 8px 0px;
+  font-weight: bold;
+}
+.reset-button {
+  font-size: 14px;
+  border: 1px solid #006169;
+}
+    .done-button {
+  font-size: 14px;
+  background-color: #006169;
+  color: white;
+}
